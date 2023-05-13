@@ -17,5 +17,5 @@ class FilmeConfig(AppConfig):
         print(email)
         print(senha)
         if usuario:
-            Usuario.objects.create_superuser(username="admin", email=email, password=senha, is_active=True, is_staff=True)
+            Usuario.objects.create_superuser(username="Yoiti", email=email, password=senha, is_active=True, is_staff=True)
 
